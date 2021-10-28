@@ -1,11 +1,8 @@
-print("Sisestage oma nimi: ")
-nimi = input()
+nimi = input("Sisestage oma nimi: ")
 
-print("Sisestage lubatud kiirus (km/h): ")
-a = int(input())
+a = int(input("Sisestage lubatud kiirus (km/h): "))
 
-print("Sisestage tegelik kiirus (km/h: ")
-b = int(input())
+b = int(input("Sisestage tegelik kiirus (km/h: "))
 
 if b > a:
     c = b - a
