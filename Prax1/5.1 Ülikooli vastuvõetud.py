@@ -12,5 +12,4 @@ for rida in fail:
 
 
     
-    
 fail.close()
