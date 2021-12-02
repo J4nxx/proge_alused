@@ -3,7 +3,7 @@ def kuu_nimi(järjekord):
     return kuud[int(järjekord) - 1]
 def kuupäev_sõ(kuupäev):
     kuupäevad = kuupäev.split(".")
-    kuupäev = kuupäevad[0] + ". " + kuu_nimi(kuupäevad[1]) + " " + kuupäevad[2] + ". a"
+    kuupäev = kuupäevad[0] + "." + kuu_nimi(kuupäevad[1]) + " " + kuupäevad[2] + ". a"
     return kuupäev
 kuupäev = input("Sisesta kuupäev kujul DD.MM.YYYY: ")
 
